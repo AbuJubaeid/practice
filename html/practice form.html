@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <div>
+        <label for="name">Name</label><br />
+        <input type="text" id="name" />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email</label><br />
+        <input type="email" name="email" id="email" />
+      </div>
+      <br />
+      <div>
+        <label for="message">Message</label><br />
+        <textarea name="message" id="message" cols="30" rows="5"></textarea>
+      </div>
+      <br />
+      <div>
+        <label for="sex">Sex</label>
+        <select name="sex" id="sex">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other" selected>Other</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label for="birthdate">Birthdate</label>
+        <input type="date" name="birthdate" id="birthdate" />
+      </div>
+      <br />
+      <div>
+        <label for="selectone">Membership</label>
+        <input
+          type="checkbox"
+          value="Normal"
+          name="selectone"
+          id="selectone"
+          checked
+        />Normal
+        <input
+          type="checkbox"
+          value="Standard"
+          name="selectone"
+          id="selectone"
+        />Standard
+        <input
+          type="checkbox"
+          value="High"
+          name="selectone"
+          id="selectone"
+        />High
+      </div>
+      <br />
+      <div>
+        <label for="selectone">Membership</label>
+        <input
+          type="radio"
+          value="Normal"
+          name="selectone"
+          id="selectone"
+          checked
+        />Normal
+        <input
+          type="radio"
+          value="Standard"
+          name="selectone"
+          id="selectone"
+        />Standard
+        <input type="radio" value="High" name="selectone" id="selectone" />High
+      </div>
+      <br />
+      <input type="button" value="submit" />
+      <br />
+      <input type="submit" value="submit" /><br />
+      <button type="submit">submit</button><br />
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
